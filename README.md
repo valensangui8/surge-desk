@@ -1,4 +1,4 @@
-# ▶️ [Watch the demo video on YouTube](YOUTUBE_LINK)
+# ▶️ [Watch the demo video on YouTube](https://youtu.be/DwR1v5WSwdY)
 
 # Surge Desk: 26 calls about one fire, and the 4 that can't wait
 
