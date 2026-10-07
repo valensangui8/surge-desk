@@ -1,0 +1,644 @@
+{
+ "judge:c01:There's a big fire in the building at 410 West 47th, flames are coming out of the windows on the fourth floor, lots of smoke!": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 1
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "nothing_new": 0.25,
+   "life_intel": 0.75,
+   "separate_need": 0,
+   "non_emergency": 0
+  },
+  "type": "fire",
+  "severity": 3.74,
+  "lifeThreat": 0.84,
+  "credible": 0.84,
+  "summary": "Major fire, 410 W 47th, 4th floor",
+  "mock": false,
+  "ms": 918
+ },
+ "judge:c02:I can see black smoke over Hell's Kitchen, around 47th street. Is that a fire?": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.01,
+   "INC-1": 0.99
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "non_emergency": 0.42,
+   "nothing_new": 0.58,
+   "separate_need": 0,
+   "life_intel": 0
+  },
+  "type": "fire",
+  "severity": 1.23,
+  "lifeThreat": 0.27,
+  "credible": 0.81,
+  "summary": "I can see black smoke over Hell's Kitchen, around 47th street. Is t…",
+  "mock": false,
+  "ms": 346
+ },
+ "judge:c03:¡Hay un incendio en la 47 entre la 9 y la 10, sale humo negro del edificio!": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.03,
+   "INC-1": 0.97
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "separate_need": 0.02,
+   "life_intel": 0.07,
+   "nothing_new": 0.91,
+   "non_emergency": 0
+  },
+  "type": "fire",
+  "severity": 3.53,
+  "lifeThreat": 0.71,
+  "credible": 0.82,
+  "summary": "¡Hay un incendio en la 47 entre la 9 y la 10, sale humo negro del e…",
+  "mock": false,
+  "ms": 265
+ },
+ "judge:c04:Building on fire at 410 West 47th, fourth floor. I live right across the street.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0,
+   "INC-1": 1
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "non_emergency": 0,
+   "nothing_new": 0.96,
+   "separate_need": 0,
+   "life_intel": 0.04
+  },
+  "type": "fire",
+  "severity": 3.52,
+  "lifeThreat": 0.67,
+  "credible": 0.84,
+  "summary": "Building on fire at 410 West 47th, fourth floor. I live right acros…",
+  "mock": false,
+  "ms": 240
+ },
+ "judge:c05:My neighbor in 6C uses a wheelchair and she's still inside 410 West 47th, she can't do the stairs!": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.01,
+   "INC-1": 0.99
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "non_emergency": 0,
+   "separate_need": 0,
+   "life_intel": 1,
+   "nothing_new": 0
+  },
+  "type": "fire",
+  "severity": 3.95,
+  "lifeThreat": 0.96,
+  "credible": 0.35,
+  "summary": "Wheelchair user trapped, apt 6C, 410 W 47th",
+  "mock": false,
+  "ms": 1377
+ },
+ "judge:c06:47街有大火，很多烟，那栋楼在烧！": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0,
+   "INC-1": 1
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0,
+   "non_emergency": 0,
+   "nothing_new": 1,
+   "separate_need": 0
+  },
+  "type": "fire",
+  "severity": 3.92,
+  "lifeThreat": 0.67,
+  "credible": 0.7,
+  "summary": "47街有大火，很多烟，那栋楼在烧！",
+  "mock": false,
+  "ms": 339
+ },
+ "judge:c07:My husband just collapsed in the kitchen, he's not breathing! 305 West 52nd, apartment 2B, please hurry!": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 1,
+   "INC-1": 0
+  },
+  "adds": "separate_need",
+  "addsProbs": {
+   "separate_need": 1,
+   "nothing_new": 0,
+   "non_emergency": 0,
+   "life_intel": 0
+  },
+  "type": "medical",
+  "severity": 4,
+  "lifeThreat": 0.98,
+  "credible": 0.88,
+  "summary": "Man collapsed, not breathing, apt 2B, 305 W 52nd.",
+  "mock": false,
+  "ms": 2218
+ },
+ "judge:c08:Fire on 47th street, there's smoke everywhere.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.01,
+   "INC-2": 0,
+   "INC-1": 0.99
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "nothing_new": 1,
+   "separate_need": 0,
+   "non_emergency": 0,
+   "life_intel": 0
+  },
+  "type": "fire",
+  "severity": 3.88,
+  "lifeThreat": 0.62,
+  "credible": 0.67,
+  "summary": "Fire on 47th street, there's smoke everywhere.",
+  "mock": false,
+  "ms": 439
+ },
+ "judge:c09:cant talk. smoke coming in my apt 8F door is hot. me and my son 6yo": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "new": 0,
+   "INC-1": 1
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "separate_need": 0,
+   "non_emergency": 0,
+   "nothing_new": 0,
+   "life_intel": 1
+  },
+  "type": "fire",
+  "severity": 4,
+  "lifeThreat": 0.97,
+  "credible": 0.96,
+  "summary": "Smoke in apt 8F, 410 W 47th, mother+son",
+  "mock": false,
+  "ms": 2075
+ },
+ "judge:c10:I heard on TikTok it's a bomb in Hell's Kitchen?? Is that true?": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 0.86,
+   "INC-1": 0.14,
+   "INC-2": 0
+  },
+  "adds": "non_emergency",
+  "addsProbs": {
+   "nothing_new": 0,
+   "separate_need": 0,
+   "non_emergency": 1,
+   "life_intel": 0
+  },
+  "type": "other",
+  "severity": 0.27,
+  "lifeThreat": 0.1,
+  "credible": 0.02,
+  "summary": "Bomb hoax reported, Times Square",
+  "mock": false,
+  "ms": 1091
+ },
+ "judge:c11:The smoke from the fire is so thick here and my dad is having chest pains, he's 78. We're on the corner of 9th and 47th.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.16,
+   "INC-2": 0,
+   "INC-1": 0.84
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "nothing_new": 0.01,
+   "separate_need": 0.4,
+   "non_emergency": 0,
+   "life_intel": 0.59
+  },
+  "type": "medical",
+  "severity": 3.77,
+  "lifeThreat": 0.95,
+  "credible": 0.89,
+  "summary": "Elderly man chest pains, 9th Ave & W 47th",
+  "mock": false,
+  "ms": 2301
+ },
+ "judge:c12:Strong gas smell in the lobby of 412 West 47th, the building right next to the fire.": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 0.84,
+   "INC-1": 0.16,
+   "INC-2": 0,
+   "INC-3": 0
+  },
+  "adds": "separate_need",
+  "addsProbs": {
+   "separate_need": 0.82,
+   "nothing_new": 0,
+   "non_emergency": 0,
+   "life_intel": 0.18
+  },
+  "type": "fire",
+  "severity": 3.38,
+  "lifeThreat": 0.7,
+  "credible": 0.8,
+  "summary": "Strong gas smell, lobby, 412 W 47th.",
+  "mock": false,
+  "ms": 1800
+ },
+ "judge:c13:[Call abandoned after 4 seconds. Background audio: heavy coughing, a child crying.]": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-1": 0.9299999999999999,
+   "INC-4": 0,
+   "INC-2": 0,
+   "new": 0.03,
+   "INC-3": 0.04
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "life_intel": 0.79,
+   "non_emergency": 0,
+   "nothing_new": 0.19,
+   "separate_need": 0.02
+  },
+  "type": "fire",
+  "severity": 3.99,
+  "lifeThreat": 0.92,
+  "credible": 0.71,
+  "summary": "Child coughing, possible choking, W 47th St",
+  "mock": false,
+  "ms": 1033
+ },
+ "judge:c14:Huge fire on 47th, the fire trucks are here now.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "INC-3": 0,
+   "INC-1": 1,
+   "new": 0,
+   "INC-4": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "non_emergency": 0,
+   "life_intel": 0,
+   "separate_need": 0,
+   "nothing_new": 1
+  },
+  "type": "fire",
+  "severity": 3.43,
+  "lifeThreat": 0.47,
+  "credible": 0.7,
+  "summary": "Huge fire on 47th, the fire trucks are here now.",
+  "mock": false,
+  "ms": 141
+ },
+ "judge:c15:৪৭ নম্বর রাস্তায় একটা বিল্ডিংয়ে আগুন লেগেছে, অনেক ধোঁয়া!": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0,
+   "INC-2": 0,
+   "INC-4": 0,
+   "INC-1": 1,
+   "INC-3": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0,
+   "non_emergency": 0,
+   "nothing_new": 1,
+   "separate_need": 0
+  },
+  "type": "fire",
+  "severity": 3.81,
+  "lifeThreat": 0.69,
+  "credible": 0.65,
+  "summary": "৪৭ নম্বর রাস্তায় একটা বিল্ডিংয়ে আগুন লেগেছে, অনেক ধোঁয়া!",
+  "mock": false,
+  "ms": 408
+ },
+ "judge:c16:A cab just hit a cyclist at 10th and 48th, he's bleeding from the head and not moving. Everyone was looking at the fire.": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 0.99,
+   "INC-2": 0,
+   "INC-1": 0.01,
+   "INC-3": 0,
+   "INC-4": 0
+  },
+  "adds": "separate_need",
+  "addsProbs": {
+   "non_emergency": 0,
+   "life_intel": 0,
+   "nothing_new": 0,
+   "separate_need": 1
+  },
+  "type": "traffic",
+  "severity": 3.98,
+  "lifeThreat": 0.96,
+  "credible": 0.65,
+  "summary": "Cyclist struck by cab, 10th & 48th",
+  "mock": false,
+  "ms": 991
+ },
+ "judge:c17:Fire at 410 West 47th.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "new": 0,
+   "INC-3": 0,
+   "INC-4": 0,
+   "INC-5": 0,
+   "INC-1": 1
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0,
+   "non_emergency": 0,
+   "nothing_new": 1,
+   "separate_need": 0
+  },
+  "type": "fire",
+  "severity": 3.81,
+  "lifeThreat": 0.57,
+  "credible": 0.56,
+  "summary": "Fire at 410 West 47th.",
+  "mock": false,
+  "ms": 227
+ },
+ "judge:c18:Power just went out on our whole block of West 48th. Is that because of the fire?": {
+  "matchId": null,
+  "matchProbs": {
+   "INC-2": 0,
+   "INC-1": 0.46,
+   "INC-5": 0.01,
+   "INC-4": 0,
+   "INC-3": 0.01,
+   "new": 0.52
+  },
+  "adds": "non_emergency",
+  "addsProbs": {
+   "separate_need": 0.01,
+   "life_intel": 0,
+   "nothing_new": 0,
+   "non_emergency": 0.99
+  },
+  "type": "utility",
+  "severity": 0.25,
+  "lifeThreat": 0.06,
+  "credible": 0.87,
+  "summary": "power outage on W 48th St.",
+  "mock": false,
+  "ms": 1494
+ },
+ "judge:c19:No power on West 48th between 9th and 10th, and the traffic lights are out too.": {
+  "matchId": null,
+  "matchProbs": {
+   "new": 0.91,
+   "INC-3": 0.01,
+   "INC-5": 0.07,
+   "INC-4": 0,
+   "INC-1": 0.01,
+   "INC-2": 0
+  },
+  "adds": "separate_need",
+  "addsProbs": {
+   "life_intel": 0,
+   "nothing_new": 0.01,
+   "separate_need": 0.83,
+   "non_emergency": 0.16
+  },
+  "type": "utility",
+  "severity": 1.57,
+  "lifeThreat": 0.19,
+  "credible": 0.83,
+  "summary": "Power outage, traffic lights out, W 48th St.",
+  "mock": false,
+  "ms": 1689
+ },
+ "judge:c20:There's a woman waving a towel from a 7th floor window at the back of the fire building!": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-5": 0,
+   "INC-6": 0,
+   "INC-1": 0.99,
+   "INC-2": 0,
+   "INC-3": 0,
+   "INC-4": 0,
+   "new": 0.01
+  },
+  "adds": "life_intel",
+  "addsProbs": {
+   "non_emergency": 0,
+   "separate_need": 0,
+   "life_intel": 1,
+   "nothing_new": 0
+  },
+  "type": "fire",
+  "severity": 4,
+  "lifeThreat": 0.96,
+  "credible": 0.86,
+  "summary": "Woman waving towel, 7th floor, 410 W 47th",
+  "mock": false,
+  "ms": 1406
+ },
+ "judge:c21:Es el fuego de la calle 47, ya llegaron los bomberos, hay mucha gente mirando.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "INC-4": 0,
+   "INC-6": 0,
+   "INC-1": 1,
+   "INC-3": 0,
+   "INC-5": 0,
+   "new": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0,
+   "nothing_new": 0.78,
+   "separate_need": 0,
+   "non_emergency": 0.22
+  },
+  "type": "fire",
+  "severity": 1.54,
+  "lifeThreat": 0.16,
+  "credible": 0.57,
+  "summary": "Es el fuego de la calle 47, ya llegaron los bomberos, hay mucha gen…",
+  "mock": false,
+  "ms": 163
+ },
+ "judge:c22:[Call abandoned after 2 seconds. Background audio: street noise, sirens.]": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-6": 0,
+   "INC-1": 0.83,
+   "INC-2": 0,
+   "new": 0.14,
+   "INC-3": 0.03,
+   "INC-5": 0,
+   "INC-4": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0,
+   "non_emergency": 0.01,
+   "nothing_new": 0.98,
+   "separate_need": 0.01
+  },
+  "type": "other",
+  "severity": 3.42,
+  "lifeThreat": 0.09,
+  "credible": 0.08,
+  "summary": "[Call abandoned after 2 seconds. Background audio: street noise, si…",
+  "mock": false,
+  "ms": 255
+ },
+ "judge:c23:Is the C train still running? They closed my street because of the fire.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "INC-5": 0,
+   "new": 0.43,
+   "INC-3": 0,
+   "INC-1": 0.56,
+   "INC-6": 0.01,
+   "INC-4": 0
+  },
+  "adds": "non_emergency",
+  "addsProbs": {
+   "separate_need": 0.01,
+   "life_intel": 0,
+   "non_emergency": 0.99,
+   "nothing_new": 0
+  },
+  "type": "other",
+  "severity": 0.35,
+  "lifeThreat": 0.05,
+  "credible": 0.59,
+  "summary": "Fire closes W 50th St, C train question",
+  "mock": false,
+  "ms": 1250
+ },
+ "judge:c24:Smoke coming from 410 West 47, the fourth floor.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-2": 0,
+   "INC-3": 0,
+   "new": 0,
+   "INC-6": 0,
+   "INC-4": 0,
+   "INC-1": 1,
+   "INC-5": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "life_intel": 0.01,
+   "non_emergency": 0,
+   "nothing_new": 0.99,
+   "separate_need": 0
+  },
+  "type": "fire",
+  "severity": 3.84,
+  "lifeThreat": 0.71,
+  "credible": 0.78,
+  "summary": "Smoke coming from 410 West 47, the fourth floor.",
+  "mock": false,
+  "ms": 368
+ },
+ "judge:c25:Пожар на 47-й улице, очень много дыма.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "new": 0.01,
+   "INC-3": 0.01,
+   "INC-2": 0,
+   "INC-1": 0.98,
+   "INC-6": 0,
+   "INC-5": 0,
+   "INC-4": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "nothing_new": 0.99,
+   "separate_need": 0.01,
+   "life_intel": 0,
+   "non_emergency": 0
+  },
+  "type": "fire",
+  "severity": 3.53,
+  "lifeThreat": 0.62,
+  "credible": 0.71,
+  "summary": "Пожар на 47-й улице, очень много дыма.",
+  "mock": false,
+  "ms": 273
+ },
+ "judge:c26:There's a fire on 47th, a lot of smoke.": {
+  "matchId": "INC-1",
+  "matchProbs": {
+   "INC-3": 0,
+   "INC-6": 0,
+   "INC-1": 1,
+   "INC-5": 0,
+   "new": 0,
+   "INC-4": 0,
+   "INC-2": 0
+  },
+  "adds": "nothing_new",
+  "addsProbs": {
+   "non_emergency": 0,
+   "life_intel": 0,
+   "separate_need": 0,
+   "nothing_new": 1
+  },
+  "type": "fire",
+  "severity": 3.65,
+  "lifeThreat": 0.59,
+  "credible": 0.66,
+  "summary": "There's a fire on 47th, a lot of smoke.",
+  "mock": false,
+  "ms": 191
+ },
+ "announce": {
+  "messages": [
+   {
+    "language": "English",
+    "text": "We are aware of the major fire at 410 West 47th Street. FDNY is on scene. Please stay clear of the area. If you have a different emergency or are trapped, press 1."
+   },
+   {
+    "language": "Spanish",
+    "text": "Estamos al tanto del incendio mayor en 410 West 47th Street. El FDNY está en la escena. Por favor, manténgase alejado del área. Si tiene una emergencia diferente o está atrapado, presione 1."
+   },
+   {
+    "language": "Chinese (Mandarin)",
+    "text": "我们已知晓西47街410号的重大火灾。FDNY已在现场。请避开该区域。如果您有其他紧急情况或被困，请按1键。"
+   },
+   {
+    "language": "Bengali",
+    "text": "আমরা 410 ওয়েস্ট 47তম স্ট্রিটের বড় আগুনের বিষয়ে অবগত আছি। FDNY ঘটনাস্থলে আছে। অনুগ্রহ করে এলাকা থেকে দূরে থাকুন। যদি আপনার অন্য কোন জরুরি অবস্থা থাকে বা আপনি আটকা পড়ে থাকেন, তাহলে 1 চাপুন।"
+   },
+   {
+    "language": "Russian",
+    "text": "Нам известно о крупном пожаре на 410 Вест 47-й Стрит. FDNY на месте происшествия. Пожалуйста, держитесь подальше от этого района. Если у вас другая чрезвычайная ситуация или вы заблокированы, нажмите 1."
+   }
+  ],
+  "radio": "FDNY on scene, 410 W 47th. Trapped: Apt 6C wheelchair user. Apt 8F mother+son smoke. 7th floor woman waving towel. Prioritize rescues.",
+  "unsupported": [
+   0.07,
+   0.07,
+   0.08,
+   0.09,
+   0.09
+  ]
+ }
+}
